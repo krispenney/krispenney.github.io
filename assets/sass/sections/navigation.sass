@@ -1,3 +1,12 @@
+@supports ((backdrop-filter: saturate(180%) blur(20px)) or (-webkit-backdrop-filter: saturate(180%) blur(20px)))
+  nav
+    -webkit-backdrop-filter: saturate(180%) blur(20px)
+    backdrop-filter: saturate(180%) blur(20px)
+    background-color: transparentize($ivory, 0.5)
+@supports not((backdrop-filter: saturate(180%) blur(20px)) or (-webkit-backdrop-filter: saturate(180%) blur(20px)))
+  nav
+    background-color: transparentize($ivory, 0.1)
+
 nav
   position: fixed
   top: 0
@@ -7,11 +16,8 @@ nav
   width: 100%
   height: 50px
 
-  background-color: transparentize($ivory, 0.5)
   z-index: 99
 
-  -webkit-backdrop-filter: saturate(180%) blur(20px)
-  backdrop-filter: saturate(180%) blur(20px)
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2)
 
   .mobile-ctrl
