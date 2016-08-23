@@ -4,6 +4,19 @@
   {% include head.html %}
   <style>
 
+    @supports (backdrop-filter: saturate(180%) blur(20px)) or (-webkit-backdrop-filter: saturate(180%) blur(20px)) {
+      footer {
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
+        background-color: rgba(255, 255, 255, 0.7);
+      }
+    }
+    @supports not ((backdrop-filter: saturate(180%) blur(20px)) or (-webkit-backdrop-filter: saturate(180%) blur(20px))) {
+      footer {
+        background-color: rgba(255, 255, 255, 0.9);
+      }
+    }
+
     .main {
       margin-bottom: 45px;
     }
@@ -20,10 +33,6 @@
       align-items: center;
       flex-direction: row;
       justify-content: space-between;
-
-      -webkit-backdrop-filter: saturate(180%) blur(20px);
-      backdrop-filter: saturate(180%) blur(20px);
-      background-color: rgba(255, 255, 255, 0.7);
     }
 
     footer h6 {

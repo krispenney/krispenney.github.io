@@ -10,16 +10,29 @@
   <meta name="description" content="Personal Website">
 
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/font-awesome-4.6.3/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/css/skeleton/normalize.css">
-  <link rel="stylesheet" href="assets/css/skeleton/skeleton.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/font-awesome-4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/css/skeleton/normalize.css">
+  <link rel="stylesheet" href="/assets/css/skeleton/skeleton.css">
   <link rel="canonical" href="http://krispenney.me/2013/09/08/personal-website.html">
 
   <link type="application/atom+xml" rel="alternate" href="http://krispenney.me/feed.xml" title="Kris Penney" />
 </head>
 
   <style>
+
+    @supports (backdrop-filter: saturate(180%) blur(20px)) or (-webkit-backdrop-filter: saturate(180%) blur(20px)) {
+      footer {
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
+        background-color: rgba(255, 255, 255, 0.7);
+      }
+    }
+    @supports not ((backdrop-filter: saturate(180%) blur(20px)) or (-webkit-backdrop-filter: saturate(180%) blur(20px))) {
+      footer {
+        background-color: rgba(255, 255, 255, 0.9);
+      }
+    }
 
     .main {
       margin-bottom: 45px;
@@ -37,10 +50,6 @@
       align-items: center;
       flex-direction: row;
       justify-content: space-between;
-
-      -webkit-backdrop-filter: saturate(180%) blur(20px);
-      backdrop-filter: saturate(180%) blur(20px);
-      background-color: rgba(255, 255, 255, 0.7);
     }
 
     footer h6 {
