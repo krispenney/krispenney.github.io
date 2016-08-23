@@ -1,0 +1,157 @@
+nav
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+
+  width: 100%
+  height: 50px
+
+  background-color: transparentize($ivory, 0.5)
+  z-index: 99
+
+  -webkit-backdrop-filter: saturate(180%) blur(20px)
+  backdrop-filter: saturate(180%) blur(20px)
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2)
+
+  .mobile-ctrl
+    display: none
+
+  ul
+    list-style-type: none
+    margin: 0
+    height: 100%
+    padding: 0 15px
+
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    flex-direction: row
+    align-items: center
+
+    li
+      display: inline-block
+      margin-bottom: 0
+
+      &:first-child
+        font-weight: 700
+
+        a:after
+          display: none
+      a
+        padding: 17px 15px
+        display: block
+        text-decoration: none
+        color: $text-dark
+        font-size: 1.5rem
+        transition: color 0.3s ease-in-out
+        position: relative
+
+        &:after
+          position: absolute
+          bottom: 0
+          left: 0
+          right: 0
+          margin: auto
+          width: 100%
+          content: '.'
+          color: transparent
+          background: $blue-dark
+          height: 2px
+          transition: transform 0.5s ease-in-out
+          transform: scaleX(0)
+          transform-origin: center bottom
+
+        &:hover
+          color: $blue-dark
+
+          &:after
+            transform: scaleX(1)
+
+@media(max-width: 650px)
+  nav
+    display: block !important
+    box-shadow: none
+    height: auto
+
+    .mobile-ctrl
+      display: block
+      height: 50px
+
+      .toggle
+        display: inline-block
+        font-size: 3rem
+
+    ul
+      display: none
+      // transform: scaleY(0)
+      // transition: transform 0.4s ease-in-out
+
+    .mobile-ctrl
+      display: -webkit-box
+      display: -webkit-flex
+      display: -ms-flexbox
+      display: flex
+      flex-direction: row
+      align-items: center
+      justify-content: space-between
+      padding: 0 15px
+
+      .head
+        font-weight: 700
+        font-size: 1.5rem
+
+      .toggle
+        position: relative
+        margin-right: 15px
+        height: 25px
+        width: 25px
+        .hamburger
+          $width: 25px
+          $height: 3px
+          width: $width
+          height: $height
+          background: black
+          display: block
+          position: absolute
+          top: 50%
+          left: 50%
+          margin:
+            left: -$width/2
+            top: -$height/2
+          transition: transform 300ms
+
+          $hamburger-spacing: 8px
+
+          &:first-child
+            transform: translateY(-$hamburger-spacing)
+          &:last-child
+            transform: translateY($hamburger-spacing)
+
+  .is-open
+
+    .mobile-ctrl .toggle .hamburger
+      &:first-child
+        transform: translateY(0) rotate(45deg)
+
+      &:nth-child(2)
+        transform: translateY(0) scale(0.1,1)
+
+      &:last-child
+        transform: translateY(0) rotate(-45deg)
+
+    ul
+      display: block
+      text-align: center
+      height: auto
+      // transform: scaleY(1)
+
+      li
+        display: block !important
+
+        &:first-child
+          display: none !important
+
+        a:hover:after
+          transform: scaleX(0)

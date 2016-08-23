@@ -1,0 +1,25 @@
+<section class="projects" id="projects">
+  <div class="container">
+    <h1>Projects</h1>
+    <hr>
+
+    <div class="project-wrap">
+      {% for post in site.posts %}
+        <a href="{{post.url}}" class="project-thumb" style="background-image: url('assets/images/projects/{{post.image}}')">
+          <div class="project-details">
+            <h6 class="name">{{post.title}}</h6>
+            <hr>
+            <p class="description">{{post.description}}</p>
+
+            <div class="tags">
+              {% for tag in post.tags %}
+                <span class="fa fa-{{tag}}"></span>
+              {% endfor %}
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
