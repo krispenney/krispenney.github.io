@@ -42,6 +42,10 @@ tags:
   }
 </style>
 
+<script>
+    document.location = "https://github.com/k9101/data-compression";
+</script>
+
 # Data Compression
 <hr>
 
