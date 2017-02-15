@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://krispenney.me/feed.xml" rel="self" type="application/atom+xml" /><link href="http://krispenney.me/" rel="alternate" type="text/html" /><updated>2016-09-29T17:34:51-04:00</updated><id>http://krispenney.me/</id><title>Kris Penney</title><subtitle>You have found Kris Penney&#39;s personal website! Kris is a developer who is a 4th year Business and Computer Science Double Degree student at the University of Waterloo and Wilfrid Laurier University.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://krispenney.me/feed.xml" rel="self" type="application/atom+xml" /><link href="http://krispenney.me/" rel="alternate" type="text/html" /><updated>2017-02-14T22:55:07-05:00</updated><id>http://krispenney.me/</id><title>Kris Penney</title><subtitle>You have found Kris Penney&#39;s personal website! Kris is a developer who is a 4th year Business and Computer Science Double Degree student at the University of Waterloo and Wilfrid Laurier University.
 </subtitle><entry><title>FCAlertView Swift</title><link href="http://krispenney.me/2016/09/09/FCAlertView.html" rel="alternate" type="text/html" title="FCAlertView Swift" /><published>2016-09-09T00:00:00-04:00</published><updated>2016-09-09T00:00:00-04:00</updated><id>http://krispenney.me/2016/09/09/FCAlertView</id><content type="html" xml:base="http://krispenney.me/2016/09/09/FCAlertView.html">&lt;script&gt;
   window.location = &quot;http://github.com/k9101/FCAlertView&quot;;
 &lt;/script&gt;</content><category term="apple" /><category term="mobile" /><summary></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://krispenney.mefcalertview.png" /></entry><entry><title>Data Compression</title><link href="http://krispenney.me/2016/07/28/data-compression.html" rel="alternate" type="text/html" title="Data Compression" /><published>2016-07-28T00:00:00-04:00</published><updated>2016-07-28T00:00:00-04:00</updated><id>http://krispenney.me/2016/07/28/data-compression</id><content type="html" xml:base="http://krispenney.me/2016/07/28/data-compression.html">&lt;style&gt;
@@ -53,14 +53,14 @@
     &lt;div class=&quot;row&quot;&gt;
       &lt;a href=&quot;mailto:hello@krispenney.me&quot; target=&quot;_blank&quot; class=&quot;round&quot;&gt;&lt;span class=&quot;fa fa-envelope&quot;&gt;&lt;/span&gt;&lt;/a&gt;
       &lt;a href=&quot;https://linkedin.com/in/kris-penney-04a01535&quot; target=&quot;_blank&quot; class=&quot;round&quot;&gt;&lt;span class=&quot;fa fa-linkedin&quot;&gt;&lt;/span&gt;&lt;/a&gt;
-      &lt;a href=&quot;https://github.com/k9101&quot; target=&quot;_blank&quot; class=&quot;round&quot;&gt;&lt;span class=&quot;fa fa-github&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+      &lt;a href=&quot;https://github.com/krispenney&quot; target=&quot;_blank&quot; class=&quot;round&quot;&gt;&lt;span class=&quot;fa fa-github&quot;&gt;&lt;/span&gt;&lt;/a&gt;
       &lt;a href=&quot;https://plus.google.com/108825782324277929446/posts&quot; target=&quot;_blank&quot; class=&quot;round&quot;&gt;&lt;span class=&quot;fa fa-google-plus&quot;&gt;&lt;/span&gt;&lt;/a&gt;
     &lt;/div&gt;
     &lt;a class=&quot;button&quot; href=&quot;http://krispenney.me/assets/files/Kris Penney.pdf&quot; target=&quot;_blank&quot;&gt;Download Resume&lt;/a&gt;
     &lt;hr /&gt;
   &lt;/div&gt;
   &lt;footer&gt;
-    &amp;copy; Kris Penney 2016. All Rights Reserved.
+    &amp;copy; Kris Penney 2017. All Rights Reserved.
   &lt;/footer&gt;
 &lt;/section&gt;</content><category term="code" /><category term="terminal" /><category term="file" /><summary></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://krispenney.mecompression.png" /></entry><entry><title>uPark</title><link href="http://krispenney.me/2016/06/28/upark-app.html" rel="alternate" type="text/html" title="uPark" /><published>2016-06-28T00:00:00-04:00</published><updated>2016-06-28T00:00:00-04:00</updated><id>http://krispenney.me/2016/06/28/upark-app</id><content type="html" xml:base="http://krispenney.me/2016/06/28/upark-app.html">&lt;script&gt;
   window.location = &quot;http://krispenney.me/upark&quot;;
@@ -112,14 +112,14 @@
     &lt;div class=&quot;row&quot;&gt;
       &lt;a href=&quot;mailto:hello@krispenney.me&quot; target=&quot;_blank&quot; class=&quot;round&quot;&gt;&lt;span class=&quot;fa fa-envelope&quot;&gt;&lt;/span&gt;&lt;/a&gt;
       &lt;a href=&quot;https://linkedin.com/in/kris-penney-04a01535&quot; target=&quot;_blank&quot; class=&quot;round&quot;&gt;&lt;span class=&quot;fa fa-linkedin&quot;&gt;&lt;/span&gt;&lt;/a&gt;
-      &lt;a href=&quot;https://github.com/k9101&quot; target=&quot;_blank&quot; class=&quot;round&quot;&gt;&lt;span class=&quot;fa fa-github&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+      &lt;a href=&quot;https://github.com/krispenney&quot; target=&quot;_blank&quot; class=&quot;round&quot;&gt;&lt;span class=&quot;fa fa-github&quot;&gt;&lt;/span&gt;&lt;/a&gt;
       &lt;a href=&quot;https://plus.google.com/108825782324277929446/posts&quot; target=&quot;_blank&quot; class=&quot;round&quot;&gt;&lt;span class=&quot;fa fa-google-plus&quot;&gt;&lt;/span&gt;&lt;/a&gt;
     &lt;/div&gt;
     &lt;a class=&quot;button&quot; href=&quot;http://krispenney.me/assets/files/Kris Penney.pdf&quot; target=&quot;_blank&quot;&gt;Download Resume&lt;/a&gt;
     &lt;hr /&gt;
   &lt;/div&gt;
   &lt;footer&gt;
-    &amp;copy; Kris Penney 2016. All Rights Reserved.
+    &amp;copy; Kris Penney 2017. All Rights Reserved.
   &lt;/footer&gt;
 &lt;/section&gt;</content><category term="android" /><category term="mobile" /><category term="laptop" /><category term="database" /><summary></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://krispenney.mewhere-is-kris.png" /></entry><entry><title>Personal Website</title><link href="http://krispenney.me/2013/09/08/personal-website.html" rel="alternate" type="text/html" title="Personal Website" /><published>2013-09-08T00:00:00-04:00</published><updated>2013-09-08T00:00:00-04:00</updated><id>http://krispenney.me/2013/09/08/personal-website</id><content type="html" xml:base="http://krispenney.me/2013/09/08/personal-website.html">&lt;style&gt;
   section.contact, .contact .container {
@@ -169,13 +169,13 @@
     &lt;div class=&quot;row&quot;&gt;
       &lt;a href=&quot;mailto:hello@krispenney.me&quot; target=&quot;_blank&quot; class=&quot;round&quot;&gt;&lt;span class=&quot;fa fa-envelope&quot;&gt;&lt;/span&gt;&lt;/a&gt;
       &lt;a href=&quot;https://linkedin.com/in/kris-penney-04a01535&quot; target=&quot;_blank&quot; class=&quot;round&quot;&gt;&lt;span class=&quot;fa fa-linkedin&quot;&gt;&lt;/span&gt;&lt;/a&gt;
-      &lt;a href=&quot;https://github.com/k9101&quot; target=&quot;_blank&quot; class=&quot;round&quot;&gt;&lt;span class=&quot;fa fa-github&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+      &lt;a href=&quot;https://github.com/krispenney&quot; target=&quot;_blank&quot; class=&quot;round&quot;&gt;&lt;span class=&quot;fa fa-github&quot;&gt;&lt;/span&gt;&lt;/a&gt;
       &lt;a href=&quot;https://plus.google.com/108825782324277929446/posts&quot; target=&quot;_blank&quot; class=&quot;round&quot;&gt;&lt;span class=&quot;fa fa-google-plus&quot;&gt;&lt;/span&gt;&lt;/a&gt;
     &lt;/div&gt;
     &lt;a class=&quot;button&quot; href=&quot;http://krispenney.me/assets/files/Kris Penney.pdf&quot; target=&quot;_blank&quot;&gt;Download Resume&lt;/a&gt;
     &lt;hr /&gt;
   &lt;/div&gt;
   &lt;footer&gt;
-    &amp;copy; Kris Penney 2016. All Rights Reserved.
+    &amp;copy; Kris Penney 2017. All Rights Reserved.
   &lt;/footer&gt;
 &lt;/section&gt;</content><category term="mobile" /><category term="laptop" /><category term="server" /><category term="keyboard-o" /><summary></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://krispenney.mepersonal-site.png" /></entry></feed>

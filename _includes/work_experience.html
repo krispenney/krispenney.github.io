@@ -1,44 +1,20 @@
 <section class="work_experience container" id="experience">
   <h1>Work Experience</h1>
   <hr>
-  <div class="row">
-    <div class="six columns">
-      <h6><strong>Web Developer</strong> - Wilfrid Laurier University</h6>
-      <h6>July 2015 - Present</h6>
+  {% assign jobs = site.jobs | sort: 'order' %}
+  {% for job in jobs reversed %}
+    <div class="row">
+      <div class="six columns">
+        <h6><strong>{{ job.title }}</strong> - {{ job.employer }}</h6>
+        <h6>{{ job.time}}</h6>
+      </div>
+      <div class="offset-by-one five columns">
+        <ul class="dash">
+          {% for task in job.tasks %}
+            <li>{{ task }}</li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
-    <div class="offset-by-one five columns">
-      <ul class="dash">
-        <li>Implemented improvements throughout the entire stack of a PHP web application.</li>
-        <li>Built a full-stack web survey to process data and generate result PDF.</li>
-        <li>Designed and developed a new website for the Learning Specialists Association of Canada.</li>
-        <li>Technologies Used: Python, PHP, MYSQL, HTML, CSS/LESS, JS/jQuery.</li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="six columns">
-      <h6><strong>Solutions Developer</strong> - TD Lab</h6>
-      <h6>January 2016 - April 2016</h6>
-    </div>
-    <div class="offset-by-one five columns">
-      <ul class="dash">
-        <li>Received Outstanding performance evaluation (Highest Rating).</li>
-        <li>Created iOS, Android, Web, Augmented and Virtual Reality, and Microsoft Hololens based solutions.</li>
-        <li>Collaborated with a team of full time developers, designers, and co-op students in order to bring concepts to life.</li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="six columns">
-      <h6><strong>Software Developer</strong> - Crawford &amp; Company</h6>
-      <h6>January 2015 - May 2015</h6>
-    </div>
-    <div class="offset-by-one five columns">
-      <ul class="dash">
-        <li>Developed a full-stack web application to modernize the organization's IT ticketing process for both employees and agents.</li>
-        <li>Used SignalR to create a realtime, interactive user notification system.</li>
-        <li>Technologies Used: C#, MSSQL, HTML, CSS, JS/jQuery.</li>
-      </ul>
-    </div>
-  </div>
+  {% endfor %}
 </section>
