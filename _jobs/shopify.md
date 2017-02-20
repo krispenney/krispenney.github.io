@@ -4,4 +4,5 @@ title: Software Developer
 employer: Shopify
 time: January 2017 - Present
 tasks:
+- Currently an intern on the Kernel-Transactions team. 
 ---
