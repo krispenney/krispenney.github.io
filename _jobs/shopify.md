@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 3
 title: Software Developer
 employer: Shopify
 time: January 2017 - April 2017

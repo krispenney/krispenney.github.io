@@ -1,11 +1,11 @@
 ---
-order: 2
+order: 4
 title: Web Developer
 employer: Wilfrid Laurier University
-time: July 2015 - December 2016
+time: July 2015 - Present
 tasks:
-  - Implemented improvements throughout the entire stack of a PHP web application.
-  - Built a full-stack web survey to process data and generate result PDF.
-  - Designed and developed a new website for the Learning Specialists Association of Canada.
+  - Designed and developed new features for a Student Success Center web application.
+  - Improved performance of MySQL database by profiling queries and indexing tables.
+  - Transitioned internal projects to use git, simplfying development and testing.
   - Technologies Used&#58; Python, PHP, MYSQL, HTML, CSS/LESS, JS/jQuery.
 ---

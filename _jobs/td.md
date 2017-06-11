@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 2
 title: Solutions Developer
 employer: TD Lab
 time: January 2016 - April 2016
