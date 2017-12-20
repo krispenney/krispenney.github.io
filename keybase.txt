@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/krispenney
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://krispenney.me
+  * I am krispenney (https://keybase.io/krispenney) on keybase.
+  * I have a public key ASCmbk5MFVUqvKk-reeDx569Ql3_K4bUbPnXVxEgDSEVuAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012059b417aa88320539d572120d8a9880b4ae51439eb229365e6bfb4aedf4b862540a",
+      "host": "keybase.io",
+      "kid": "0120a66e4e4c15552abca93eade783c79ebd425dff2b86d46cf9d75711200d2115b80a",
+      "uid": "8019050924ab4951ffac10bcfcaf6e19",
+      "username": "krispenney"
+    },
+    "merkle_root": {
+      "ctime": 1513738833,
+      "hash": "c82d5d9afaa9614d50df9805e6892493c6a9ca6b40eba0848fc3554adb85c3880fe7842dbcdf960f34cf0c4efe5d97780de80aca163bb73276962df5cfb4667c",
+      "hash_meta": "d67037ffced312f25b1515bd56434e8fae86fabd948d1a501a602ae9b3f7abcf",
+      "seqno": 1839433
+    },
+    "service": {
+      "hostname": "krispenney.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.37"
+  },
+  "ctime": 1513738843,
+  "expire_in": 504576000,
+  "prev": "5dea729d47a053567a9d84ea5fa94117256a0f883a39fc06a6fdcfcd2d3cf886",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgpm5OTBVVKrypPq3ng8eevUJd/yuG1Gz511cRIA0hFbgKp3BheWxvYWTFA0d7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNTliNDE3YWE4ODMyMDUzOWQ1NzIxMjBkOGE5ODgwYjRhZTUxNDM5ZWIyMjkzNjVlNmJmYjRhZWRmNGI4NjI1NDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYTY2ZTRlNGMxNTU1MmFiY2E5M2VhZGU3ODNjNzllYmQ0MjVkZmYyYjg2ZDQ2Y2Y5ZDc1NzExMjAwZDIxMTViODBhIiwidWlkIjoiODAxOTA1MDkyNGFiNDk1MWZmYWMxMGJjZmNhZjZlMTkiLCJ1c2VybmFtZSI6ImtyaXNwZW5uZXkifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTM3Mzg4MzMsImhhc2giOiJjODJkNWQ5YWZhYTk2MTRkNTBkZjk4MDVlNjg5MjQ5M2M2YTljYTZiNDBlYmEwODQ4ZmMzNTU0YWRiODVjMzg4MGZlNzg0MmRiY2RmOTYwZjM0Y2YwYzRlZmU1ZDk3NzgwZGU4MGFjYTE2M2JiNzMyNzY5NjJkZjVjZmI0NjY3YyIsImhhc2hfbWV0YSI6ImQ2NzAzN2ZmY2VkMzEyZjI1YjE1MTViZDU2NDM0ZThmYWU4NmZhYmQ5NDhkMWE1MDFhNjAyYWU5YjNmN2FiY2YiLCJzZXFubyI6MTgzOTQzM30sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJrcmlzcGVubmV5Lm1lIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zNyJ9LCJjdGltZSI6MTUxMzczODg0MywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI1ZGVhNzI5ZDQ3YTA1MzU2N2E5ZDg0ZWE1ZmE5NDExNzI1NmEwZjg4M2EzOWZjMDZhNmZkY2ZjZDJkM2NmODg2Iiwic2Vxbm8iOjEwLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQC73TzJIQT9nYCdCcfcF7NVfUgD2JwSC4EvFaddw+WAN77xY1zWk+bQTWOOvk9KllMiAWqknsoFBYeIFw7ozBQWoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDviNK9X17GHYScuK6mEMDgIzjTLrlQ0m4NflEGV133MaN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/krispenney
+
+==================================================================
