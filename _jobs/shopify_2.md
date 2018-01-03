@@ -6,5 +6,5 @@ time: September 2017 - December 2017
 tasks:
 - Interned on the Kernel-Transactions team.
 - Part of a large project to overhaul the financial transactions and payments processing data models to unlock new business opportunities for Shopify.
-- Improved resiliency in financial transaction processing during catestrophic failures, which help to prevent merchants from issuing duplicate requests. Potentially causing money to be lost.
+- Improved resiliency in financial transaction processing during catestrophic failures, which help to prevent merchants from issuing duplicate requests and loosing money.
 ---
