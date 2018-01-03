@@ -2,7 +2,7 @@
 order: 4
 title: Web Developer
 employer: Wilfrid Laurier University
-time: July 2015 - Present
+time: July 2015 - August 2017
 tasks:
   - Designed and developed new features for a Student Success Center web application.
   - Improved performance of MySQL database by profiling queries and indexing tables.
