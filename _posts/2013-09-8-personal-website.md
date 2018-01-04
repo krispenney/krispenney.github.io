@@ -43,6 +43,10 @@ tags:
   }
 </style>
 
+<script>
+  window.location = "https://github.com/krispenney/krispenney.github.io";
+</script>
+
 # Personal Website
 <hr>
 
