@@ -140,7 +140,7 @@ function isElementInViewport (el) {
         rect.top >= 0 &&
         rect.left >= 0 &&
         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth) 
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
 }
 
@@ -151,7 +151,8 @@ function launchProgressBar(){
     var totalDays = 1802 + 65;
     var currentDays = daysBetween(new Date(2013, 09, 09), new Date);
 
-    bar.style.transform = "scaleX(" + (currentDays/totalDays) + ")";
+    // bar.style.transform = "scaleX(" + (currentDays/totalDays) + ")";
+    bar.style.transform = "scaleX(0.93)";
 
     window.removeEventListener('scroll', launchProgressBar);
   }
