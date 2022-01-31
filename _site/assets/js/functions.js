@@ -152,7 +152,7 @@ function launchProgressBar(){
     var currentDays = daysBetween(new Date(2013, 09, 09), new Date);
 
     // bar.style.transform = "scaleX(" + (currentDays/totalDays) + ")";
-    bar.style.transform = "scaleX(0.93)";
+    bar.style.transform = "scaleX(1)";
 
     window.removeEventListener('scroll', launchProgressBar);
   }
